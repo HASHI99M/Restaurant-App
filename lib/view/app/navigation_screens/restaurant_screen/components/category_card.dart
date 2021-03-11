@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-
 import '../../../../../const.dart';
 import '../../../../../size_config.dart';
 
 class CategoryCard extends StatelessWidget {
   final double defaultSize;
-
   const CategoryCard({Key key, this.defaultSize}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,9 +23,9 @@ class CategoryCard extends StatelessWidget {
           Container(
               height: (SizeConfig.screenHeight * .18) * .2,
               child: Text(
-            'Pizza',
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ))
+                'Pizza',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ))
         ],
       ),
     );

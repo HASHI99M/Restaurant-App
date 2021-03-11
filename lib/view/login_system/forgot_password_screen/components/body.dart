@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_app/utils/ps_progress.dart';
 import 'package:restaurant_app/view/components/custom_text_failed2.dart';
 import 'package:restaurant_app/view/components/primary_button.dart';
 import '../../../../const.dart';
@@ -45,7 +46,8 @@ class Body extends StatelessWidget {
                       fontSize: 16,
                       fontWeight: FontWeight.bold),
                 ),
-                onClick: () {},
+                onClick: () {
+                },
               ),
             ),
           ],

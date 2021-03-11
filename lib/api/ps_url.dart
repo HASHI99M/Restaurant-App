@@ -1,0 +1,3 @@
+class PsURL{
+  PsURL._();
+}
